@@ -29,6 +29,6 @@ This project showcases my web development skills and design sense using Bootstra
 ## 🙋‍♂️ Author
 
 **Sameer Khuhro**  
-[LinkedIn](https://www.linkedin.com/in/sameer-khuhro-1693b52b1) | [GitHub](https://github.com/yourusername)
+[LinkedIn](https://www.linkedin.com/in/sameer-khuhro-1693b52b1) | [GitHub](https://github.com/sameerkhuhro)
 
 
