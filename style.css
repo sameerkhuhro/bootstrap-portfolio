@@ -1,0 +1,103 @@
+/* === General Styles === */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  background-color: #f9f9f9;
+}
+
+/* === Navbar === */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+/* === Hero Section === */
+section.bg-primary {
+  background: linear-gradient(135deg, #007bff, #0d6efd);
+}
+
+/* === Buttons === */
+.btn {
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 500;
+}
+
+/* === Cards === */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* === Footer === */
+footer {
+  font-size: 0.9rem;
+  background-color: #222;
+}
+
+/* === Headings === */
+h1, h2, h3, h5 {
+  font-weight: 600;
+  color: #333;
+}
+
+/* === Contact Form === */
+form input, form textarea {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+form input:focus, form textarea:focus {
+  border-color: #0d6efd;
+  box-shadow: none;
+}
+
+/* === Custom Badge Size === */
+.badge {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 20px;
+}
+
+/* === Section Spacing (optional override for consistency) === */
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+/* === Fix thumbnail images in cards === */
+.card-img-top{
+  height: 300px;              /* You can adjust height */
+  object-fit: cover;          /* Crop to fill */
+  object-position: center;    /* Center image */
+}
+
+/* === Ensure equal height cards === */
+.card{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body{
+  flex-grow: 1;
+}
